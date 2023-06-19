@@ -6,11 +6,11 @@
     - `ssh-keygen -t rsa -b 4096 -a 100` with name of `github_id_rsa`
     - Add public key as both auth and signing keys at `https://github.com/settings/keys`
     - Add to `~/.ssh/config`:
-
+        ```
         Host github.com
             IdentityFile ~/.ssh/github_id_rsa
             User git
-
+        ```
 - Clone this repo, `git clone git@github.com:MJones180/macos_setup.git`, then setup:
     - Symlink source controlled dot files, `ln -s macos_setp/.<file> .<file>`
 - Install Brave Browser (`https://brave.com/download/`)
