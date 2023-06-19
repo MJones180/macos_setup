@@ -1,0 +1,26 @@
+CONNECTING TO A REMOTE SERVER
+-----------------------------
+
+Connecting to a remote server in the terminal is as simple as:
+
+    ssh <username>@<domain/ip>
+
+You will then be prompted to enter your password.
+The only catch is that you will be prompted for your password every time you remote in.
+To bypass this, a key can be generated and transferred over to the remote server to avoid having to input your password everytime.
+The first step is to generate an rsa ssh key (this needs to be run locally from the terminal on your mac):
+
+    ssh-keygen -t rsa -b 4096 -a 100
+
+When creating your key, it will ask you for information such as the name, you can just press enter to skip each of these steps.
+Next, you will want to transfer the key over to the remote server so it is recognized (will require your password once):
+
+    ssh-copy-id <username>@<domain/ip>
+
+The final step is to add the following using `vim ~/.ssh/config`:
+
+    Host <connection_name>
+        HostName <domain/ip>
+        User <username>
+
+Now, you can simply type `ssh <connection_name>` and you will be connected to the remote server without a password!
