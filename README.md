@@ -38,6 +38,16 @@
 - Download `nord` colorscheme for `iTerm2`
 - Setup `oh-my-zsh` and `powerlevel10k` for `iTerm2`
     - Will require the manual installation of `oh-my-zsh` plugins
+        - `colored-man-pages`
+        - `git`
+        - `web-search`
+        - `zsh-syntax-highlighting`
+        - `zsh-autosuggestions`
 - Clone vim config, `git clone git@github.com:MJones180/vim.git`, then setup:
     - Create `/.vimrc` with line `source ~/vim/config.vim`
     - Install `vim-plug` and run `:PlugInstall` inside `/.vimrc`
+- Add the following to your `~/.zshrc`:
+    - Should already contain stuff for `oh-my-zsh`, `powerlevel10k`, `conda` (from `miniforge`), and `fzf`.
+    - `set -o vi`
+    - `alias lg='lazygit'`
+    - `export PATH=/opt/homebrew/bin:$PATH`
