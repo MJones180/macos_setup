@@ -13,7 +13,7 @@
         ```
 - Clone this repo, `git clone git@github.com:MJones180/macos_setup.git`, then setup:
     - Symlink source controlled dot files, `ln -s macos_setp/.<file> .<file>`
-- Install Brave Browser (`https://brave.com/download/`)
+- Install Arc Browser (`https://arc.net/`)
 - Install Nord Pass (`https://nordpass.com/download/macos/`)
 - Install Nord VPN (`https://nordvpn.com/download/mac/`)
 - Install Edison email (`https://www.edisonmail.com/`)
