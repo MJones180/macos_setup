@@ -2,24 +2,26 @@
 
 ***Note***: These steps are not complete.
 
-- Setup GitHub SSH key:
-    - `ssh-keygen -t rsa -b 4096 -a 100` with name of `github_id_rsa`
-    - Add public key as both auth and signing keys at `https://github.com/settings/keys`
-    - Add to `~/.ssh/config`:
+1. Setup GitHub SSH key:
+    1. `ssh-keygen -t rsa -b 4096 -a 100` with name of `github_id_rsa`
+    2. Add public key as both auth and signing keys at `https://github.com/settings/keys`
+    3. Add to `~/.ssh/config`:
         ```
         Host github.com
             IdentityFile ~/.ssh/github_id_rsa
             User git
         ```
-- Clone this repo, `git clone git@github.com:MJones180/macos_setup.git`, then setup:
-    - Symlink source controlled dot files, `ln -s macos_setp/.<file> .<file>`
-- Install Arc Browser (`https://arc.net/`)
-- Install Nord Pass (`https://nordpass.com/download/macos/`)
-- Install Nord VPN (`https://nordvpn.com/download/mac/`)
-- Install Edison email (`https://www.edisonmail.com/`)
-- Install Google Drive (`https://www.google.com/drive/download/`)
-- Install Grammarly (`https://app.grammarly.com/apps`)
-- Install `brew`, then install:
+2. If on Bash, switch to ZSH (`https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH`)
+3. Clone this repo, `git clone git@github.com:MJones180/macos_setup.git`, then setup:
+    - Symlink source controlled dot files, `ln -s macos_setup/.<file> .<file>`
+4. Install the following applications:
+    - Arc Browser (`https://arc.net/`)
+    - Nord Pass (`https://nordpass.com/download/macos/`)
+    - Nord VPN (`https://nordvpn.com/download/mac/`)
+    - Edison email (`https://www.edisonmail.com/`)
+    - Google Drive (`https://www.google.com/drive/download/`)
+    - Grammarly (`https://app.grammarly.com/apps`)
+5. Install `brew` (`https://brew.sh`), then install:
     - Formulae:
         - `flake8`
         - `fzf`
@@ -34,21 +36,16 @@
     - Casks:
         - `iterm2`
         - `mactex` (`TeX` support)
-        - `miniforge` (`conda` with `M1` support)
         - `skim`
-- Download `nord` colorscheme for `iTerm2`
-- Setup `oh-my-zsh` and `powerlevel10k` for `iTerm2`
-    - Will require the manual installation of `oh-my-zsh` plugins
-        - `colored-man-pages`
-        - `git`
-        - `web-search`
-        - `zsh-syntax-highlighting`
-        - `zsh-autosuggestions`
-- Clone vim config, `git clone git@github.com:MJones180/vim.git`, then setup:
-    - Create `/.vimrc` with line `source ~/vim/config.vim`
-    - Install `vim-plug` and run `:PlugInstall` inside `/.vimrc`
-- Add the following to your `~/.zshrc`:
-    - Should already contain stuff for `oh-my-zsh`, `powerlevel10k`, `conda` (from `miniforge`), and `fzf`.
-    - `set -o vi`
-    - `alias lg='lazygit'`
-    - `export PATH=/opt/homebrew/bin:$PATH`
+6. Install `miniforge` (`conda` with `M1` support)
+    - If on mac, this can be installed as a `brew` Cask
+    - Otherwise, install directly (`https://github.com/conda-forge/miniforge`)
+7. Download `nord` colorscheme for `iTerm2`
+8. Setup `oh-my-zsh` (`https://github.com/ohmyzsh/ohmyzsh`) for `iTerm2`
+    1. The following `oh-my-zsh` plugins will require manual installation:
+        - `zsh-syntax-highlighting` (`https://github.com/zsh-users/zsh-syntax-highlighting`)
+        - `zsh-autosuggestions` (`https://github.com/zsh-users/zsh-autosuggestions`)
+    2. Install `powerlevel10k` (`https://github.com/romkatv/powerlevel10k`)
+9. Clone vim config, `git clone git@github.com:MJones180/vim.git`, then setup:
+    1. Create `/.vimrc` with line `source ~/vim/config.vim`
+    2. Install `vim-plug` and run `:PlugInstall` inside `/.vimrc`
