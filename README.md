@@ -13,7 +13,10 @@
         ```
 2. If on Bash, switch to ZSH (`https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH`)
 3. Clone this repo, `git clone git@github.com:MJones180/macos_setup.git`, then setup:
-    - Symlink source controlled dot files, `ln -s macos_setup/.<file> .<file>`
+    - Create `~/.zshrc`
+        - Add `source macos_setup/.zshrc` to the first line
+        - The conda init should go at the bottom of this file
+    - Symlink other source controlled dot files, `ln -s macos_setup/.<file> .<file>`
 4. Install the following applications:
     - Arc Browser (`https://arc.net/`)
     - Nord Pass (`https://nordpass.com/download/macos/`)
