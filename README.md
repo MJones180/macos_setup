@@ -28,6 +28,7 @@
     - Formulae:
         - `flake8`
         - `fzf`
+        - `jordanbaird-ice`
         - `lazygit`
         - `python@3.9`
         - `python@3.10`
@@ -39,6 +40,7 @@
     - Casks:
         - `iterm2`
         - `mactex` (`TeX` support)
+        - `rectangle`
         - `skim`
 6. Install `miniforge` (`conda` with `M1` support)
     - If on mac, this can be installed as a `brew` Cask
