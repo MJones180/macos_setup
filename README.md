@@ -41,6 +41,7 @@
         - `iterm2`
         - `mactex` (`TeX` support)
         - `skim`
+        - `zotero`
 6. Install `miniforge` (`conda` with `M1` support)
     - If on mac, this can be installed as a `brew` Cask
     - Otherwise, install directly (`https://github.com/conda-forge/miniforge`)
