@@ -37,6 +37,7 @@
         - `vim`
         - `yapf`
     - Casks:
+        - `betterdisplay`
         - `iterm2`
         - `mactex` (`TeX` support)
         - `skim`
