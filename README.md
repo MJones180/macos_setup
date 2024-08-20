@@ -23,7 +23,6 @@
     - Nord VPN (`https://nordvpn.com/download/mac/`)
     - Edison email (`https://www.edisonmail.com/`)
     - Google Drive (`https://www.google.com/drive/download/`)
-    - Grammarly (`https://app.grammarly.com/apps`)
 5. Install `brew` (`https://brew.sh`), then install:
     - Formulae:
         - `flake8`
