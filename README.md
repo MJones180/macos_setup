@@ -17,7 +17,7 @@
 3. Clone this repo, `git clone git@github.com:MJones180/macos_setup.git`, then setup:
     - Git might not be installed so it can be installed with `sudo apt install git`
     - Create `~/.zshrc`
-        - Add `source macos_setup/.zshrc` to the first line
+        - Add `source ~/macos_setup/.zshrc` to the first line
         - The conda init should go at the bottom of this file
     - Symlink other source controlled dot files, `ln -s macos_setup/.<file> .<file>`
 4. Install the following applications:
