@@ -28,7 +28,7 @@
     - Google Drive (`https://www.google.com/drive/download/`)
 5. Install `brew` (`https://brew.sh`), then install:
     - Formulae:
-        - `clang-format`
+        - `clang-format` (If this doesn't work, then do `sudo apt install clang-format`)
         - `flake8`
         - `fzf`
         - `lazygit`
