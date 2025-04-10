@@ -41,15 +41,15 @@
         - `yapf`
     - Casks:
         - `betterdisplay`
-        - `iterm2`
+        - `ghostty`
         - `mactex` (`TeX` support)
         - `skim`
         - `zotero`
-6. Install `miniforge` (`conda` with `M1` support)
+6. Update the config file in `ghostty` to point to the symlinked dot file
+7. Install `miniforge` (`conda` with `M1` support)
     - If on mac, this can be installed as a `brew` Cask
     - Otherwise, install directly (`https://github.com/conda-forge/miniforge`)
-7. Download `nord` colorscheme for `iTerm2`
-8. Setup `oh-my-zsh` (`https://github.com/ohmyzsh/ohmyzsh`) for `iTerm2`
+8. Setup `oh-my-zsh` (`https://github.com/ohmyzsh/ohmyzsh`) for the terminal
     1. The following `oh-my-zsh` plugins will require manual installation:
         - `zsh-syntax-highlighting` (`https://github.com/zsh-users/zsh-syntax-highlighting`)
         - `zsh-autosuggestions` (`https://github.com/zsh-users/zsh-autosuggestions`)
