@@ -29,6 +29,7 @@
 5. Install `brew` (`https://brew.sh`), then install:
     - Formulae:
         - `clang-format` (If this doesn't work, then do `sudo apt install clang-format`)
+        - `fastfetch`
         - `flake8`
         - `fzf`
         - `lazygit`

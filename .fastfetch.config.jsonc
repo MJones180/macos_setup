@@ -1,0 +1,78 @@
+{
+    "logo": {
+        "type": "kitty-direct",
+        "source": "~/macos_setup/terminal_images/image_*.png",
+        "width": 35,
+        "height": 23
+    },
+    "display": {
+        "separator": "",
+        "key": {
+            "width": 14
+        }
+    },
+    "modules": [
+        {
+            "type": "custom",
+            "key": "Enjoy a cute picture :)\n",
+            "keyColor": "31"
+        },
+        {
+            "type": "datetime",
+            "key": "{icon} Now",
+            "keyColor": "32",
+            "format": "{hour-12-pretty}:{minute-pretty}:{second-pretty} {timezone-name} {month-name-short} {day-in-month}, {year}"
+        },
+        {
+            "type": "title",
+            "key": "{icon} User",
+            "keyColor": "33",
+            "format": "[{host-name}] {user-name}"
+        },
+        {
+            "type": "os",
+            "key": "{icon} Distro",
+            "keyColor": "34"
+        },
+        {
+            "type": "cpu",
+            "key": "{icon} CPU",
+            "keyColor": "34",
+            "showPeCoreCount": true
+        },
+        {
+            "type": "gpu",
+            "key": "{icon} GPU",
+            "keyColor": "34"
+        },
+        {
+            "type": "terminal",
+            "key": "{icon} Terminal",
+            "keyColor": "35"
+        },
+        {
+            "type": "shell",
+            "key": "{icon} Shell",
+            "keyColor": "35"
+        },
+        {
+            "type": "publicip",
+            "key": "{icon} Public IP",
+            "keyColor": "36",
+            "timeout": 1000
+        },
+        {
+            "type": "wifi",
+            "key": "{icon} Wifi",
+            "keyColor": "36",
+            "format": "{ssid}"
+        },
+        {
+            "type": "packages",
+            "key": "{icon} Packages",
+            "keyColor": "37"
+        },
+        "break",
+        "colors"
+    ]
+}
