@@ -46,7 +46,7 @@
         - `mactex` (`TeX` support)
         - `skim`
         - `zotero`
-6. Update the config file in `ghostty` to point to the symlinked dot file
+6. Update the config file for `ghostty` to point to the config file in this repo (`.ghostty_config`)
 7. Install `miniforge` (`conda` with `M1` support)
     - If on mac, this can be installed as a `brew` Cask
     - Otherwise, install directly (`https://github.com/conda-forge/miniforge`)

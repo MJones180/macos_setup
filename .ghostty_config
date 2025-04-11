@@ -1,5 +1,6 @@
 # Inside the main `ghostty` config, include the following:
 # config-file = ~/.ghostty_config
+
 font-family = MesloLGS NF
 theme = catppuccin-frappe
 cursor-invert-fg-bg = true
