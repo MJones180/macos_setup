@@ -4,5 +4,6 @@ font-family = MesloLGS NF
 theme = catppuccin-frappe
 cursor-invert-fg-bg = true
 macos-icon = holographic
+confirm-close-surface=false
 # Makes it so that `cmd+w` only closes the current pane, not the whole window
 keybind = cmd+w=close_surface
