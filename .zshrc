@@ -1,7 +1,11 @@
 # Look at brew installed packages
 export PATH=/opt/homebrew/bin:$PATH
 
-fastfetch --load-config ~/macos_setup/.fastfetch.config.jsonc
+if type brew &> /dev/null; then
+    if brew ls --versions fastfetch > /dev/null; then
+        fastfetch --load-config ~/macos_setup/.fastfetch.config.jsonc
+    fi
+fi
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
