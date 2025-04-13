@@ -22,10 +22,11 @@
     - Symlink other source controlled dot files, `ln -s macos_setup/.<file> .<file>`
 4. Install the following applications:
     - Arc Browser (`https://arc.net/`)
-    - Nord Pass (`https://nordpass.com/download/macos/`)
-    - Nord VPN (`https://nordvpn.com/download/mac/`)
     - Edison email (`https://www.edisonmail.com/`)
     - Google Drive (`https://www.google.com/drive/download/`)
+    - Nord Pass (`https://nordpass.com/download/macos/`)
+    - Nord VPN (`https://nordvpn.com/download/mac/`)
+    - Twos app
 5. Install `brew` (`https://brew.sh`), then install:
     - Formulae:
         - `clang-format` (If this doesn't work, then do `sudo apt install clang-format`)
