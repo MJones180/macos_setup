@@ -22,7 +22,6 @@
     - Symlink other source controlled dot files, `ln -s macos_setup/.<file> .<file>`
 4. Install the following applications:
     - Arc Browser (`https://arc.net/`)
-    - Edison email (`https://www.edisonmail.com/`)
     - Google Drive (`https://www.google.com/drive/download/`)
     - Nord Pass (`https://nordpass.com/download/macos/`)
     - Nord VPN (`https://nordvpn.com/download/mac/`)
