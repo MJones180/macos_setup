@@ -23,6 +23,7 @@
 4. Install the following applications:
     - Arc Browser (`https://arc.net/`)
     - Google Drive (`https://www.google.com/drive/download/`)
+    - Microsoft Outlook.
     - Nord Pass (`https://nordpass.com/download/macos/`)
     - Nord VPN (`https://nordvpn.com/download/mac/`)
     - Twos app
