@@ -46,6 +46,7 @@
         - `ghostty`
         - `mactex` (`TeX` support)
         - `skim`
+        - `xquartz`
         - `zotero`
 6. Update the config file for `ghostty` to point to the symlinked dot config file
 7. Install `miniforge` (`conda` with `M1` support)
