@@ -33,6 +33,6 @@ All commands below should be run locally on your mac:
         HostName <hostname>
         User <username>
 
-5. You are able to SSh in easily now!
+5. You are able to SSH in easily now!
 
     ssh <connection_name>

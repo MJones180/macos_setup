@@ -23,7 +23,8 @@
 4. Install the following applications:
     - Arc Browser (`https://arc.net/`)
     - Google Drive (`https://www.google.com/drive/download/`)
-    - Microsoft Outlook.
+    - Google Gemini
+    - Microsoft Outlook
     - Nord Pass (`https://nordpass.com/download/macos/`)
     - Nord VPN (`https://nordvpn.com/download/mac/`)
     - Twos app
@@ -34,9 +35,6 @@
         - `flake8`
         - `fzf`
         - `lazygit`
-        - `python@3.9`
-        - `python@3.10`
-        - `python@3.12`
         - `the_silver_searcher`
         - `tree`
         - `vim`
@@ -48,20 +46,19 @@
         - `skim`
         - `xquartz`
         - `zotero`
-6. Update the config file for `ghostty` to point to the symlinked dot config file
-7. Install `miniforge` (`conda` with `M1` support)
+6. Install `miniforge` (`conda` with `M1` support)
     - If on mac, this can be installed as a `brew` Cask
     - Otherwise, install directly (`https://github.com/conda-forge/miniforge`)
-8. Setup `oh-my-zsh` (`https://github.com/ohmyzsh/ohmyzsh`) for the terminal
+7. Setup `oh-my-zsh` (`https://github.com/ohmyzsh/ohmyzsh`) for the terminal
     1. The following `oh-my-zsh` plugins will require manual installation:
         - `zsh-syntax-highlighting` (`https://github.com/zsh-users/zsh-syntax-highlighting`)
         - `zsh-autosuggestions` (`https://github.com/zsh-users/zsh-autosuggestions`)
     2. Install `powerlevel10k` (`https://github.com/romkatv/powerlevel10k`)
-9. Clone vim config, `git clone git@github.com:MJones180/vim.git`, then setup:
+8. Clone vim config, `git clone git@github.com:MJones180/vim.git`, then setup:
     1. Create `~/.vimrc` with line `source ~/vim/config.vim`
     2. Install `vim-plug` (`https://github.com/junegunn/vim-plug`)
     3. Run `:PlugInstall` inside `/.vimrc`
-10. If on Ubuntu and the ability to SSH in needs to be setup:
+9. If on Ubuntu and the ability to SSH in needs to be setup:
 
         sudo apt update
         sudo apt upgrade
