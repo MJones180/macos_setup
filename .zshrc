@@ -3,7 +3,7 @@ export PATH=/opt/homebrew/bin:$PATH
 
 if type brew &> /dev/null; then
     if brew ls --versions fastfetch > /dev/null; then
-        fastfetch --load-config ~/macos_setup/.fastfetch.config.jsonc
+        fastfetch --config ~/macos_setup/.fastfetch.config.jsonc
     fi
 fi
 
