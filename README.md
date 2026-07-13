@@ -35,6 +35,7 @@
         - `flake8`
         - `fzf`
         - `lazygit`
+        - `parallel`
         - `the_silver_searcher`
         - `tree`
         - `vim`
