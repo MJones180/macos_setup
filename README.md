@@ -42,6 +42,7 @@
         - `yapf`
     - Casks:
         - `betterdisplay`
+        - `claude`
         - `ghostty`
         - `mactex` (`TeX` support)
         - `skim`
