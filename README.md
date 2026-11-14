@@ -21,7 +21,7 @@
         - The conda init should go at the bottom of this file
     - Symlink other source controlled dot files, `ln -s macos_setup/.<file> .<file>`
 4. Install the following applications:
-    - Arc Browser (`https://arc.net/`)
+    - Dia Browser (`https://www.diabrowser.com`)
     - Google Drive (`https://www.google.com/drive/download/`)
     - Google Gemini
     - Microsoft Outlook
