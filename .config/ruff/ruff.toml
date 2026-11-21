@@ -3,3 +3,4 @@ quote-style = "single"
 
 [lint]
 ignore = ["PLR1722"]
+select = ["E", "F", "SIM"]
