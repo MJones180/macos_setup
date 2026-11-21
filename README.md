@@ -32,14 +32,13 @@
     - Formulae:
         - `clang-format` (If this doesn't work, then do `sudo apt install clang-format`)
         - `fastfetch`
-        - `flake8`
         - `fzf`
         - `lazygit`
         - `parallel`
+        - `ruff`
         - `the_silver_searcher`
         - `tree`
         - `vim`
-        - `yapf`
     - Casks:
         - `betterdisplay`
         - `claude`
