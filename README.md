@@ -20,6 +20,7 @@
         - Add `source ~/macos_setup/.zshrc` to the first line
         - The conda init should go at the bottom of this file
     - Symlink other source controlled dot files, `ln -s macos_setup/.<file> .<file>`
+        - Need to also symlink `.config/ruff`
 4. Install the following applications:
     - Dia Browser (`https://www.diabrowser.com`)
     - Google Drive (`https://www.google.com/drive/download/`)
